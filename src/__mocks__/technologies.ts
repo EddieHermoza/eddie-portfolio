@@ -6,7 +6,6 @@ export const TECHNOLOGIES = [
       'JavaScript',
       'React',
       'NextJs',
-      'GraphQL',
       'React Native',
       'Expo',
       'Zustand',

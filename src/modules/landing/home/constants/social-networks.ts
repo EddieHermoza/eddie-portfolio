@@ -1,35 +1,19 @@
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaGithub,
-  FaLinkedinIn,
-  FaWhatsapp,
-} from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 
 export const SOCIAL_NETWORKS = [
   {
-    name: 'Facebook',
-    href: 'https://facebook.com/tu_usuario',
-    icon: FaFacebookF,
-  },
-  {
-    name: 'Instagram',
-    href: 'https://instagram.com/tu_usuario',
-    icon: FaInstagram,
-  },
-  {
     name: 'GitHub',
-    href: 'https://github.com/tu_usuario',
+    href: 'https://github.com/EddieHermoza',
     icon: FaGithub,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/tu_usuario',
+    href: 'https://www.linkedin.com/in/eddie-hermoza-1a392023a',
     icon: FaLinkedinIn,
   },
   {
     name: 'WhatsApp',
-    href: 'https://wa.me/123456789',
+    href: 'https://wa.me/995468795',
     icon: FaWhatsapp,
   },
 ]

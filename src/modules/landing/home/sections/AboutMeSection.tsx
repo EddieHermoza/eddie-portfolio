@@ -42,7 +42,7 @@ export default function AboutMeSection() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-around lg:w-1/2 gap-10 w-full max-lg:mb-10">
-          <p className="lg:max-w-96 max-lg:text-sm text-balance text-muted-foreground w-full">
+          <p className="lg:max-w-96 max-lg:text-sm text-balance text-muted-foreground w-full text-lg 2xl:text-xl">
             Tengo experiencia creando aplicaciones escalables y soluciones
             eficientes orientadas a resolver problemas reales con buenas
             prácticas. Soy una persona adaptable, con mentalidad analítica y

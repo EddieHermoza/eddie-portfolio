@@ -31,9 +31,9 @@ export default function HeroSection() {
           <p
             className={`text-lg text-muted-foreground max-w-96 max-lg:text-base max-md:text-center max-sm:text-sm`}
           >
-            Mi objetivo es{' '}
-            <em>escribir código mantenible, limpio y comprensible</em> para que
-            el proceso de desarrollo sea agradable.
+            Me apasiona desarrollar{' '}
+            <em>soluciones rápidas, escalables y efectivas</em> que resuelven
+            problemas reales.
           </p>
           <span
             className={`${aldrich.className} text-9xl tracking-wider  max-2xl:text-8xl max-lg:text-7xl max-sm:text-5xl`}
@@ -42,7 +42,7 @@ export default function HeroSection() {
           </span>
         </div>
         <div className="md:hidden m-auto flex-center mt-5">
-          <GoToProjectsButton/>
+          <GoToProjectsButton />
         </div>
         <div className="flex flex-wrap justify-center gap-5 mt-12 text-lg">
           {SOCIAL_NETWORKS.map((item) => (

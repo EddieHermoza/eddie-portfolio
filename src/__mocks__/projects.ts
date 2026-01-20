@@ -51,6 +51,127 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    id: '17',
+    name: 'BarberShop',
+    slug: 'barbershop',
+    shortDescription: 'Sistema de gestión para barberías.',
+    longDescription:
+      'Aplicación diseñada para la gestión integral de una barbería, permitiendo el control de citas, servicios, productos y personal, optimizando la atención al cliente y la administración del negocio.',
+    technologies: [
+      'Next.js',
+      'React',
+      'Nest.js',
+      'gRPC',
+      'TCP',
+      'Swagger',
+      'JWT',
+      'Microservices',
+      'Node.js',
+      'PrismaORM',
+      'PostgreSQL',
+      'TailwindCSS',
+      'Shadcn UI',
+      'Cloudinary',
+      'Zustand',
+    ],
+    stack: 'full',
+    visibility: 'publico',
+    features: [
+      'Gestión de citas ',
+      'Catálogo de servicios',
+      'Panel administrativo',
+      'Arquitectura de microservicios',
+    ],
+    repositories: [
+      {
+        label: 'Frontend',
+        link: 'https://github.com/EddieHermoza/barbershop-frontend',
+      },
+      {
+        label: 'Api Gateway',
+        link: 'https://github.com/EddieHermoza/barbershop-backend-gateway',
+      },
+      {
+        label: 'Microservicio/Usuarios',
+        link: 'https://github.com/EddieHermoza/babershop-ms-users',
+      },
+      {
+        label: 'Microservicio/Pagos',
+        link: 'https://github.com/EddieHermoza/barbershop-ms-payments',
+      },
+      {
+        label: 'Microservicio/Analíticas',
+        link: 'https://github.com/EddieHermoza/barbershop-ms-analytics',
+      },
+      {
+        label: 'Microservicio/Citas',
+        link: 'https://github.com/EddieHermoza/barbershop-ms-appointments',
+      },
+      {
+        label: 'Microservicio/Servicios',
+        link: 'https://github.com/EddieHermoza/barbershop-ms-services',
+      },
+    ],
+    liveDemoLink: '',
+
+    diagramImages: {
+      architecture: {
+        light: '/images/barbershop/arquitecture-barbershop-light.svg',
+        dark: '/images/barbershop/arquitecture-barbershop-dark.svg',
+        mermaidCode: barbershopArquitecture,
+      },
+      database: {
+        light: '/images/barbershop/database-barbershop-light.svg',
+        dark: '/images/barbershop/database-barbershop-dark.svg',
+        mermaidCode: barbershopDatabase,
+      },
+    },
+    galleryImages: [
+      {
+        src: '/images/barbershop/barbershop-1.png',
+        width: 1840,
+        height: 1000,
+        isPreview: true,
+      },
+
+      {
+        src: '/images/barbershop/barbershop-4.png',
+        width: 390,
+        height: 845,
+      },
+      {
+        src: '/images/barbershop/barbershop-10.png',
+        width: 390,
+        height: 845,
+      },
+      {
+        src: '/images/barbershop/barbershop-3.png',
+        width: 1840,
+        height: 1000,
+      },
+      {
+        src: '/images/barbershop/barbershop-5.png',
+        width: 1840,
+        height: 1000,
+      },
+      {
+        src: '/images/barbershop/barbershop-6.png',
+        width: 1840,
+        height: 1000,
+      },
+      {
+        src: '/images/barbershop/barbershop-8.png',
+        width: 1840,
+        height: 1000,
+      },
+      {
+        src: '/images/barbershop/barbershop-9.png',
+        width: 1840,
+        height: 1000,
+      },
+    ],
+  },
+  {
     id: '4',
     name: 'UTP Cafetería',
     slug: 'utp-cafeteria',
@@ -336,9 +457,11 @@ export const PROJECTS: Project[] = [
     id: '11',
     name: 'Sistema Mass',
     slug: 'sistema-mass',
-    shortDescription: 'Sistema de gestión empresarial.',
+    shortDescription:
+      'Plataforma e-commerce para gestión y venta de productos.',
     longDescription:
-      'Aplicación orientada a la gestión de procesos internos de una empresa. Incluye módulos administrativos, control de operaciones y visualización de información relevante para la toma de decisiones.',
+      'Sistema web e-commerce orientado a la gestión y comercialización de productos, inspirado en el modelo de negocio de tiendas MASS. La plataforma permite administrar el catálogo, controlar operaciones de venta y visualizar información clave para la toma de decisiones comerciales.',
+
     technologies: [
       'Next.js',
       'Node.js',
@@ -351,19 +474,26 @@ export const PROJECTS: Project[] = [
       'Vercel',
       'Paypal SDK',
     ],
+
     stack: 'full',
     visibility: 'publico',
+
     features: [
-      'Gestión de procesos',
-      'Panel administrativo',
-      'Reportes básicos',
+      'Gestión de catálogo de productos',
+      'Carrito de compras y flujo de checkout',
+      'Panel administrativo para gestión de ventas',
+      'Control de pedidos y estados',
+      'Reportes básicos de ventas',
+      'Diseño responsive orientado a conversión',
     ],
+
     repositories: [
       {
         label: 'Repositorio',
         link: 'https://github.com/EddieHermoza/sistema-mass',
       },
     ],
+
     liveDemoLink: '',
 
     diagramImages: {
@@ -378,6 +508,7 @@ export const PROJECTS: Project[] = [
         mermaidCode: sistemaMassDatabase,
       },
     },
+
     galleryImages: [
       {
         src: '/images/sistema-mass/sistema-mass-1.png',
@@ -426,9 +557,10 @@ export const PROJECTS: Project[] = [
     id: '14',
     name: 'Yana Pata',
     slug: 'yana-pata',
-    shortDescription: 'Proyecto web institucional.',
+    shortDescription: 'Sistema web para gestión veterinaria.',
     longDescription:
-      'Sitio web desarrollado para la presentación de un proyecto institucional o emprendimiento, enfocado en una navegación clara, diseño responsivo y correcta organización del contenido.',
+      'Sistema web desarrollado para la gestión de una veterinaria, orientado a la administración de pacientes, propietarios y servicios. La plataforma prioriza una navegación clara, diseño responsivo y una correcta organización de la información para optimizar la atención y el control operativo.',
+
     technologies: [
       'Next.js',
       'Node.js',
@@ -438,19 +570,25 @@ export const PROJECTS: Project[] = [
       'Stack AI',
       'TailwindCSS',
     ],
+
     stack: 'full',
     visibility: 'publico',
+
     features: [
-      'Diseño responsive',
-      'Contenido informativo',
-      'Optimización básica SEO',
+      'Gestión de pacientes y propietarios',
+      'Registro de servicios veterinarios',
+      'Historial clínico básico',
+      'Interfaz clara y responsiva',
+      'Optimización básica para SEO',
     ],
+
     repositories: [
       {
         label: 'Repositorio',
         link: 'https://github.com/EddieHermoza/YanaPata',
       },
     ],
+
     liveDemoLink: '',
 
     diagramImages: {
@@ -465,6 +603,7 @@ export const PROJECTS: Project[] = [
         mermaidCode: yanapataDatabase,
       },
     },
+
     galleryImages: [
       {
         src: '/images/yanapata/yanapata-1.png',
@@ -509,126 +648,4 @@ export const PROJECTS: Project[] = [
       },
     ],
   },
-  {
-    id: '17',
-    name: 'BarberShop',
-    slug: 'barbershop',
-    shortDescription: 'Sistema de gestión para barberías.',
-    longDescription:
-      'Aplicación diseñada para la gestión integral de una barbería, permitiendo el control de citas, servicios, productos y personal, optimizando la atención al cliente y la administración del negocio.',
-    technologies: [
-      'Next.js',
-      'React',
-      'Nest.js',
-      'gRPC',
-      'TCP',
-      'Swagger',
-      'JWT',
-      'Microservices',
-      'Node.js',
-      'PrismaORM',
-      'PostgreSQL',
-      'TailwindCSS',
-      'Shadcn UI',
-      'Cloudinary',
-      'Zustand',
-    ],
-    stack: 'full',
-    visibility: 'publico',
-    features: [
-      'Gestión de citas ',
-      'Catálogo de servicios',
-      'Panel administrativo',
-      'Arquitectura de microservicios',
-    ],
-    repositories: [
-      {
-        label: 'Frontend',
-        link: 'https://github.com/EddieHermoza/barbershop-frontend',
-      },
-      {
-        label: 'Api Gateway',
-        link: 'https://github.com/EddieHermoza/barbershop-backend-gateway',
-      },
-      {
-        label: 'Microservicio/Usuarios',
-        link: 'https://github.com/EddieHermoza/babershop-ms-users',
-      },
-      {
-        label: 'Microservicio/Pagos',
-        link: 'https://github.com/EddieHermoza/barbershop-ms-payments',
-      },
-      {
-        label: 'Microservicio/Analíticas',
-        link: 'https://github.com/EddieHermoza/barbershop-ms-analytics',
-      },
-      {
-        label: 'Microservicio/Citas',
-        link: 'https://github.com/EddieHermoza/barbershop-ms-appointments',
-      },
-      {
-        label: 'Microservicio/Servicios',
-        link: 'https://github.com/EddieHermoza/barbershop-ms-services',
-      },
-    ],
-    liveDemoLink: '',
-
-    diagramImages: {
-      architecture: {
-        light: '/images/barbershop/arquitecture-barbershop-light.svg',
-        dark: '/images/barbershop/arquitecture-barbershop-dark.svg',
-        mermaidCode: barbershopArquitecture,
-      },
-      database: {
-        light: '/images/barbershop/database-barbershop-light.svg',
-        dark: '/images/barbershop/database-barbershop-dark.svg',
-        mermaidCode: barbershopDatabase,
-      },
-    },
-    galleryImages: [
-      {
-        src: '/images/barbershop/barbershop-1.png',
-        width: 1840,
-        height: 1000,
-        isPreview: true,
-      },
-
-      {
-        src: '/images/barbershop/barbershop-4.png',
-        width: 390,
-        height: 845,
-      },
-      {
-        src: '/images/barbershop/barbershop-10.png',
-        width: 390,
-        height: 845,
-      },
-      {
-        src: '/images/barbershop/barbershop-3.png',
-        width: 1840,
-        height: 1000,
-      },
-      {
-        src: '/images/barbershop/barbershop-5.png',
-        width: 1840,
-        height: 1000,
-      },
-      {
-        src: '/images/barbershop/barbershop-6.png',
-        width: 1840,
-        height: 1000,
-      },
-      {
-        src: '/images/barbershop/barbershop-8.png',
-        width: 1840,
-        height: 1000,
-      },
-      {
-        src: '/images/barbershop/barbershop-9.png',
-        width: 1840,
-        height: 1000,
-      },
-    ],
-  },
- 
 ]
