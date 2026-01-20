@@ -1,6 +1,5 @@
 'use client'
 
-import type React from 'react'
 import { useForm, FormProvider } from 'react-hook-form'
 import { Button } from '@/modules/shared/components/ui/button'
 import ProjectBasicInfo from './project-upload-form-sections/ProjectBasicInfo'
