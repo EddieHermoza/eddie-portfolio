@@ -1,0 +1,21 @@
+{
+    "name": "Eddie Hermoza - Portfolio",
+    "short_name": "Portfolio",
+    "description": "Portafolio profesional de Eddie Hermoza - Desarrollador Full Stack",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6366f1",
+    "icons": [
+        {
+            "src": "/Logo.webp",
+            "sizes": "192x192",
+            "type": "image/webp"
+        },
+        {
+            "src": "/Logo.webp",
+            "sizes": "512x512",
+            "type": "image/webp"
+        }
+    ]
+}
